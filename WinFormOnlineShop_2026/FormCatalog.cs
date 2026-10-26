@@ -45,7 +45,8 @@ namespace WinFormOnlineShop_2026
 
         private void buttonGoToCart_Click(object sender, EventArgs e)
         {
-
+            FormCart windowCart = new FormCart(this.cart);
+            windowCart.ShowDialog();
         }
     }
 }

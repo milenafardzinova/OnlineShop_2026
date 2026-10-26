@@ -24,6 +24,7 @@ namespace WinFormOnlineShop_2026
 
         private void ShowCart()
         {
+            listBoxCartItems.Items.Clear();
             foreach (CartItem item in currentCart.getAll())
             {
                 decimal totalItemPrice = item.Product.Price * item.Count;

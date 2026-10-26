@@ -39,7 +39,7 @@
             listBoxCartItems.FormattingEnabled = true;
             listBoxCartItems.Location = new Point(25, 39);
             listBoxCartItems.Name = "listBoxCartItems";
-            listBoxCartItems.Size = new Size(318, 384);
+            listBoxCartItems.Size = new Size(517, 624);
             listBoxCartItems.TabIndex = 0;
             // 
             // labelTotalSum
@@ -47,7 +47,7 @@
             labelTotalSum.AutoSize = true;
             labelTotalSum.BackColor = SystemColors.AppWorkspace;
             labelTotalSum.Font = new Font("Segoe UI", 15F);
-            labelTotalSum.Location = new Point(382, 49);
+            labelTotalSum.Location = new Point(644, 39);
             labelTotalSum.Name = "labelTotalSum";
             labelTotalSum.Size = new Size(109, 35);
             labelTotalSum.TabIndex = 1;
@@ -56,7 +56,7 @@
             // buttonPlus
             // 
             buttonPlus.Font = new Font("Segoe UI", 20F, FontStyle.Italic);
-            buttonPlus.Location = new Point(382, 350);
+            buttonPlus.Location = new Point(644, 592);
             buttonPlus.Name = "buttonPlus";
             buttonPlus.Size = new Size(54, 58);
             buttonPlus.TabIndex = 2;
@@ -67,7 +67,7 @@
             // buttonMinus
             // 
             buttonMinus.Font = new Font("Segoe UI", 20F, FontStyle.Italic);
-            buttonMinus.Location = new Point(463, 350);
+            buttonMinus.Location = new Point(730, 592);
             buttonMinus.Name = "buttonMinus";
             buttonMinus.Size = new Size(54, 58);
             buttonMinus.TabIndex = 3;
@@ -79,7 +79,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1015, 703);
             Controls.Add(buttonMinus);
             Controls.Add(buttonPlus);
             Controls.Add(labelTotalSum);

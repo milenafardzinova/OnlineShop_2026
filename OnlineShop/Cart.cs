@@ -46,8 +46,8 @@ namespace OnlineShop
                     item.Count++;
                     return;
                 }
-                items.Add(new CartItem(product));
             }
+            items.Add(new CartItem(product));
         }
 
         public void Delete(Product product)
